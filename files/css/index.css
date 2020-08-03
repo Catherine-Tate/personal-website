@@ -6,20 +6,34 @@ body {
     text-align: center;
 	margin: auto;
   	width: 50%;
+  	margin-top: 1em;
 }
 
 #header {
 	text-align: center;
 	margin: auto;
   	width: 50%;
+  	margin-bottom: 2em;
 }
 
 #skills {
-	width: 25%;
+	width: 15em;
 	float: left;
+	margin-left: 10em;
 }
 
 #interests {
 	width: 25%;
-	float: left;
+	float: right;
+	margin-right: 10em;
+
+}
+
+#container {
+	margin: auto;
+	width: 50%;
+}
+
+#container h2 {
+	text-align: center;
 }

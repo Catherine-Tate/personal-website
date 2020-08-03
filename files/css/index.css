@@ -1,0 +1,25 @@
+body {
+    font-family: 'Ubuntu', sans-serif
+}
+
+#title {
+    text-align: center;
+	margin: auto;
+  	width: 50%;
+}
+
+#header {
+	text-align: center;
+	margin: auto;
+  	width: 50%;
+}
+
+#skills {
+	width: 25%;
+	float: left;
+}
+
+#interests {
+	width: 25%;
+	float: left;
+}

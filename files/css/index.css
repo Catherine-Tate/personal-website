@@ -16,7 +16,6 @@ body {
 	margin: auto;
   	width: 50%;
   	margin-bottom: 3em;
-  	border-top: black solid 2px;
     border-bottom: black solid 2px;
     padding-bottom: 5px;
 }
@@ -32,6 +31,8 @@ body {
 	padding: 20px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 10px rgba(0, 0, 0, 0.19);
 	height: 20em;
+	margin-top: 2em;
+
 }
 
 #interests {
@@ -41,6 +42,7 @@ body {
 	padding: 20px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 10px rgba(0, 0, 0, 0.19);
 	height: 20em;
+	margin-top: 2em;
 }
 
 #container {

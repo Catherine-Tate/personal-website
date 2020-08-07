@@ -25,24 +25,26 @@ body {
 }
 
 #skills {
-	width: 15em;
+	width: 27%;
 	float: left;
-	margin-left: 8em;
+	margin-left: 10%;
 	padding: 20px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 10px rgba(0, 0, 0, 0.19);
-	height: 20em;
-	margin-top: 2em;
+	height: 35%;
+	min-height: 20em;
+	margin-top: 3%;
 
 }
 
 #interests {
-	width: 15em;
+	width: 27%;
 	float: right;
-	margin-right:8em;
+	margin-right: 10%;
 	padding: 20px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 10px rgba(0, 0, 0, 0.19);
-	height: 20em;
-	margin-top: 2em;
+	height: 35%;
+	min-height: 20em;
+	margin-top: 3%;
 }
 
 #container {

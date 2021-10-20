@@ -1,0 +1,22 @@
+div.frame {
+    width: 10%;
+    float: left;
+    margin: 2.5%;
+    position: relative;
+    border-style: solid;
+    border-color: black;
+    border-size: 25%;
+}
+
+div.frame img {
+	height: 100%;
+	width: 100%;
+	transition: transform .2s;
+
+}
+
+div.frame img:hover {
+	transform: scale(1.5);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 10px rgba(0, 0, 0, 0.19);
+
+}

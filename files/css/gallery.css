@@ -1,22 +1,32 @@
 div.frame {
     width: 10%;
+    height: 50px;
+
     float: left;
     margin: 2.5%;
     position: relative;
     border-style: solid;
     border-color: black;
     border-size: 25%;
+    overflow: hidden;
+    transition: transform .2s;
+
 }
 
 div.frame img {
-	height: 100%;
-	width: 100%;
-	transition: transform .2s;
+	width: 1000px;
+	height: auto;
+	position: center;
+	overflow: hidden;
+}
 
+div.frame:hover {
+	width: 1000px;
+	height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 10px rgba(0, 0, 0, 0.19);
 }
 
 div.frame img:hover {
-	transform: scale(1.5);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 10px rgba(0, 0, 0, 0.19);
-
+    width: 1000px;
+    height: auto;
 }

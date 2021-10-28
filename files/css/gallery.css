@@ -1,6 +1,6 @@
 div.frame {
-    width: 100%;
-    height: 1000px;
+    width: 20%;
+    height: 200px;
     padding-bottom: 5%;
     padding-top: 5%;
     display: flex;
@@ -14,10 +14,37 @@ div.frame img {
    /* border-style: solid;
     border-color: lightgray;
     border-size: 25%;*/
+}
+
+
+div#fullImage {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 95%;
+    background-color: black;
     box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 10px rgba(0, 0, 0, 0.19);
 
 }
 
+#bigPic {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 95%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.close {
+    top: 1%;
+    left: 1%;
+    position: absolute;
+    color: white;
+    cursor: pointer;
+}
 
 #orientation {
     background-color: #749258;

@@ -5,11 +5,12 @@ function hideImage() {
 }
 
 function showImage(image) {
-	console.log(image.id)
+	var bigPic = image.children[0]
     var bigFrame = document.getElementById("fullImage")
     bigFrame.style.display = "block";
-    document.getElementById("bigPic").src=image.children[0].src;
+    document.getElementById("bigPic").src=bigPic.src;
     var bgc = getComputedStyle(image)
     bigFrame.style.backgroundColor = bgc.backgroundColor;
+    bigPic.style.backgroundColor = ""
 
 }

@@ -10,7 +10,6 @@ function showImage(image) {
     bigFrame.style.display = "block";
     document.getElementById("bigPic").src=bigPic.src;
     var bgc = getComputedStyle(image)
-    bigFrame.style.backgroundColor = bgc.backgroundColor;
     bigPic.style.backgroundColor = ""
 
 }

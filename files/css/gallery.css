@@ -5,6 +5,7 @@ div.frame {
     margin-bottom: 2%;
     padding-top: 1%;
     padding-bottom: 1%;
+    cursor: pointer;
 }
 
 div.frame img {
@@ -35,7 +36,7 @@ div#fullImage {
     top: 1%;
     left: 1%;
     position: absolute;
-    color: white;
+    color: black;
     cursor: pointer;
 }
 
@@ -68,9 +69,26 @@ div#fullImage {
 }
 
 #radioTower {
-    background-color: #fcbf64;
+    background-color: #f4f1b2;
 }
 
 #littleEddy {
     background-color: #baf1fc;
+}
+
+#bend {
+    background-color: #98e0c6;
+
+}
+
+#flame {
+    background-color: #fc9349;
+}
+
+#plont {
+    background-color: #d39ec3;
+}
+
+#atRiver {
+    background-color: #f7e76f;
 }

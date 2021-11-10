@@ -13,7 +13,6 @@ div.frame img {
     margin: auto;
 }
 
-
 div#fullImage {
     display: none;
     position: fixed;
@@ -91,4 +90,8 @@ div#fullImage {
 
 #atRiver {
     background-color: #f7e76f;
+}
+
+#city {
+    background-color: #2f2738;
 }

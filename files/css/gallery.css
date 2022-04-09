@@ -51,16 +51,16 @@ div#fullImage {
     background-color: #aaaaaa;
 }
 
-#flowerbee {
+#greenBox {
     background-color: #89DE98;
 }
 
-#celltower {
-    background-color: #baDEff;
+#maw {
+    background-color: #ff3d60;
 }
 
-#texture {
-    background-color: #888888;
+#deck {
+    background-color: #a7dbfa;
 }
 
 #tear {
@@ -92,7 +92,7 @@ div#fullImage {
     background-color: #f7e76f;
 }
 
-#city {
+#robotCastle {
     background-color: #2f2738;
 }
 
@@ -100,16 +100,16 @@ div#fullImage {
     background-color: #acf29f;
 }
 
-#texture2 {
-    background-color: #595959;
+#rails {
+    background-color: #7777aa;
 }
 
 #wired {
     background-color: #4db5af;
 }
 
-#pathway {
-    background-color: #b5a04d;
+#directions {
+    background-color: #99999a;
 }
 
 #rainbow {
@@ -122,7 +122,7 @@ div#fullImage {
 }
 
 #beNice {
-    background-color: #64a903;
+    background-color: #6464a3;
 }
 
 #reeds {
@@ -135,4 +135,36 @@ div#fullImage {
 
 #wth {
     background-color: #222222;
+}
+
+#waves {
+    background-color: #29ca89;
+}
+
+#flow {
+    background-color: #aaaaaa;
+}
+
+#rolling {
+    background-color: #bb9689;
+}
+
+#balcony {
+    background-color: #adaacc;
+}
+
+#autoShop {
+    background-color: #3668cc;
+}
+
+#blueAndOrange {
+    background-color: #f8aa66;
+}
+
+#clearSkies {
+    background-color: #7aaaff;
+}
+
+#communication {
+    background-color: #663333;
 }

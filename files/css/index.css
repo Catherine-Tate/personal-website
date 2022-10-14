@@ -1,70 +1,28 @@
 body {
     font-family: 'Ubuntu', sans-serif;
-    background-color: #3c2f93;
-}
-
-#title {
-	font-size: 2.5em;
-    text-align: center;
-	margin: auto;
-  	width: 50%;
-  	margin-top: 1em;
-  	color: #d2301b;
+    background-color: #eedcbf;
 }
 
 #sidebar {
+	position: fixed;
 	font-size: 1.2em;
 	margin: auto;
   	width: 10%;
   	margin-bottom: 3em;
     padding-bottom: 5px;
     float: left;
-    color: #d2301b;
-    
+    color: #b37d00;
+
 	margin: 1mm;
 	list-style: none;
-
 }
+
 
 #sidebar a{
-	color: #e2403b;
+	color: #004593;
 }
 
-#skills {
-	width: 27%;
-	float: left;
-	margin-left: 10%;
-	padding: 20px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 10px rgba(0, 0, 0, 0.19);
-	height: 35%;
-	min-height: 20em;
-	margin-top: 3%;
-
+#sidebar a:hover {
+	background-color: #004593;
+	color: #eedcbf;
 }
-
-#interests {
-	width: 27%;
-	float: right;
-	margin-right: 10%;
-	padding: 20px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 10px rgba(0, 0, 0, 0.19);
-	height: 35%;
-	min-height: 20em;
-	margin-top: 3%;
-}
-
-#container {
-	margin: auto;
-	width: 50%;
-	margin-top: 5em;
-}
-
-#container h2 {
-	text-align: center;
-}
-
-#container li {
-	margin-top: 10px;
-	list-style-type: none;
-}
-

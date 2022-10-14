@@ -1,5 +1,6 @@
 body {
     font-family: 'Ubuntu', sans-serif;
+    background-color: #3c2f93;
 }
 
 #title {
@@ -8,20 +9,25 @@ body {
 	margin: auto;
   	width: 50%;
   	margin-top: 1em;
+  	color: #d2301b;
 }
 
-#header {
+#sidebar {
 	font-size: 1.2em;
-	text-align: center;
 	margin: auto;
-  	width: 50%;
+  	width: 10%;
   	margin-bottom: 3em;
-    border-bottom: black solid 2px;
     padding-bottom: 5px;
+    float: left;
+    color: #d2301b;
+    
+	margin: 1mm;
+	list-style: none;
+
 }
 
-#links a {
-	margin: 1mm;
+#sidebar a{
+	color: #e2403b;
 }
 
 #skills {
@@ -62,26 +68,3 @@ body {
 	list-style-type: none;
 }
 
-#circle1 {
-	background-color: #EACBD2;
-	height: 700px;
-	width: 700px;
-	border-radius: 50%;
-	display: block;
-	position: fixed;
-	left: -300px;
-	top: -300px;
-	z-index: -3;
-}
-
-#circle2 {
-	background-color: #89D2DC;
-	height: 700px;
-	width: 700px;
-	border-radius: 50%;
-	display: block;
-	position: fixed;
-	bottom: -300px;
-	right: -300px;
-	z-index: -3;
-}

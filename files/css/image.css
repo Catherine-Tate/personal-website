@@ -1,12 +1,12 @@
+
 div.mainFrame {
 	width: 90%;
     display: flex;
     justify-content: center;
-    margin-bottom: 2%;
-    padding-top: 2%;
+    height: 100vh;
 }
 
 div.mainFrame img {
-    width: 60%;
     margin: auto;
+    height:  80%;
 }

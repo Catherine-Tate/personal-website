@@ -19,7 +19,8 @@ div.frame {
 }
 
 div.frame img {
-    height: 65%;
+    max-height: 70%;
+    max-width: 70%;
     margin: auto;
     box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 10px rgba(0, 0, 0, 0.19);
 

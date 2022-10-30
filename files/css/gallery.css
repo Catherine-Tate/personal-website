@@ -1,13 +1,5 @@
 
 
-#sidebar {
-}
-
-#main {
-    height: 100%;
-    margin-left: 200px;
-}
-
 div.frame {
     width: 150px;
     height: 150px;
@@ -24,13 +16,4 @@ div.frame img {
     margin: auto;
     box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 10px rgba(0, 0, 0, 0.19);
 
-}
-
-
-.close {
-    top: 1%;
-    left: 1%;
-    position: absolute;
-    color: black;
-    cursor: pointer;
 }

@@ -1,27 +1,35 @@
 body {
     font-family: 'Ubuntu', sans-serif;
-    background-color: #eedcbf;
+    background-color: #FFEEDB;
+}
+
+
+#main {
+    height: 100%;
+    margin-left: 200px;
+    margin-top: 5%;
+    color: #BA3B46;
+}
+
+#main p{
+	font-size: 1.4em;
 }
 
 #sidebar {
-	position: fixed;
 	font-size: 1.2em;
-	margin: auto;
+	margin-bottom: auto;
   	width: 150px;
-  	margin-bottom: 3em;
-    padding-bottom: 5px;
     float: left;
-    color: #b37d00;
-	margin: 1mm;
+    color: #BA3B46;
 	list-style: none;
 }
 
 
 #sidebar a{
-	color: #004593;
+	color: #61C9A8;
 }
 
 #sidebar a:hover {
-	background-color: #004593;
-	color: #eedcbf;
+	background-color: #61C9A8;
+	color: #FFEEDB;
 }

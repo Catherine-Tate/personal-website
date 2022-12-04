@@ -4,7 +4,8 @@ div.mainFrame {
     display: flex;
     justify-content: center;
     height: 100vh;
-    margin-top: -5%;
+    margin-top: -27%;
+    margin-left: 5%;
 }
 
 div.mainFrame img {

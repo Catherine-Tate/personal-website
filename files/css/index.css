@@ -1,38 +1,19 @@
 body {
     font-family: 'Ubuntu', sans-serif;
-/*    background-color: #FFEEDB;*/
 	background-color: #191613;
-}
-
-
-#main {
-    height: 100%;
-    margin-left: 40%;
-	margin-right: 40%;
-    margin-top: 5%;
+	margin: 40px auto;
+	max-width: 650px;
     color: #BA3B46;
-}
-
-#main p{
-	font-size: 1.4em;
-}
-
-#sidebar {
-	font-size: 1.2em;
-	margin-bottom: auto;
-	margin-left: 20%;
-  	width: 150px;
-    float: left;
-    color: #BA3B46;
-	list-style: none;
+    line-height: 1.4;
+    font-size: 1.4em;
 }
 
 
-#sidebar a{
+.pageLink{
 	color: #61C9A8;
 }
 
-#sidebar a:hover {
+.pageLink:hover {
 	background-color: #61C9A8;
 	color: #FFEEDB;
 }

@@ -8,6 +8,8 @@ div.frame {
     padding-top: 1%;
     padding-bottom: 1%;
     cursor: pointer;
+    padding: 4px;
+
 }
 
 div.frame img {
@@ -15,5 +17,11 @@ div.frame img {
     max-width: 70%;
     margin: auto;
     box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 10px rgba(0, 0, 0, 0.19);
+}
 
+.frame img:hover {
+    border-style: solid;
+    border-color: #61C9A8;
+    border-width: 1px;
+    margin: -1px;
 }
